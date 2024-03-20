@@ -26,7 +26,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
-    <title>Web CV</title>
+    <title>Travel GO</title>
   </head>
   <body>
     <nav>
@@ -43,91 +43,138 @@
     </nav>
 
     <div class="box">
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+      <section id="home">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="photo1.webp" class="d-block w-100" alt="..." />
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Find Your Destination</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Facere, sunt, doloremque quod animi, assumenda illo ad
+                    architecto nostrum obcaecati veniam totam magni recusandae?
+                    Tenetur, error officia. Consequuntur iste cupiditate velit!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="photo2.webp" class="d-block w-100" alt="..." />
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Organize Your Vacation</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+                    voluptate at itaque doloribus repellendus qui maxime inventore
+                    eum totam obcaecati! Saepe, earum doloribus? Provident eius
+                    accusantium aspernatur delectus quos ipsam?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="photo3.webp" class="d-block w-100" alt="..." />
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Make It Real</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate deserunt aliquid sapiente explicabo voluptates omnis
+                    iure at dignissimos ea dolorem commodi, quos aliquam quo quod
+                    dolorum! Enim ut suscipit repellendus?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <button
+            class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
           <button
+            class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="photo1.webp" class="d-block w-100" alt="..." />
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Find Your Destination</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Facere, sunt, doloremque quod animi, assumenda illo ad
-                  architecto nostrum obcaecati veniam totam magni recusandae?
-                  Tenetur, error officia. Consequuntur iste cupiditate velit!
-                </p>
-              </div>
-            </div>
+      </section>
+
+      <div class="container service">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="Icon1.webp" alt="">
+            <h2 class="fw-normal">Hotel</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              quam maxime animi veniam debitis facere, dolorem iusto nam commodi
+              similique iste, blanditiis quos laudantium ipsa rerum. Ex eveniet
+              expedita unde?
+            </p>
+            <p>
+              <a class="btn btn-info" href="#">View details &raquo;</a>
+            </p>
           </div>
-          <div class="carousel-item">
-            <img src="photo2.webp" class="d-block w-100" alt="..." />
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Organize Your Vacation</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                  voluptate at itaque doloribus repellendus qui maxime inventore
-                  eum totam obcaecati! Saepe, earum doloribus? Provident eius
-                  accusantium aspernatur delectus quos ipsam?
-                </p>
-              </div>
-            </div>
+
+          <div class="col-sm-4">
+            <img src="Icon2.webp" alt="">
+            <h2 class="fw-normal">Flight</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              quam maxime animi veniam debitis facere, dolorem iusto nam commodi
+              similique iste, blanditiis quos laudantium ipsa rerum. Ex eveniet
+              expedita unde?
+            </p>
+            <p>
+              <a class="btn btn-info" href="#">View details &raquo;</a>
+            </p>
           </div>
-          <div class="carousel-item">
-            <img src="photo3.webp" class="d-block w-100" alt="..." />
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Make It Real</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate deserunt aliquid sapiente explicabo voluptates omnis
-                  iure at dignissimos ea dolorem commodi, quos aliquam quo quod
-                  dolorum! Enim ut suscipit repellendus?
-                </p>
-              </div>
-            </div>
+          <div class="col-sm-4">
+            <img src="Icon3.webp" alt="">
+            <h2 class="fw-normal">Tourism</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+              quam maxime animi veniam debitis facere, dolorem iusto nam commodi
+              similique iste, blanditiis quos laudantium ipsa rerum. Ex eveniet
+              expedita unde?
+            </p>
+            <p>
+              <a class="btn btn-info" href="#">View details &raquo;</a>
+            </p>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
 
