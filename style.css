@@ -32,3 +32,9 @@
   .link-wrapper {
     display: flex;
   }
+
+  .carousel-caption {
+    top: 125px;
+    z-index: 10;
+    font-weight: bold;
+  }
