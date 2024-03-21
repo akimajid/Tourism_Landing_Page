@@ -29,7 +29,7 @@
     <title>Travel GO</title>
   </head>
   <body>
-    <nav>
+    <!-- <nav>
       <div>
         <img src="flygo-logo-trp-big.png" width="100" height="50" alt="" />
       </div>
@@ -40,10 +40,28 @@
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact Me!</a>
       </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <img id="navImg" src="flygo-logo-trp-big.png" width="85" height="40" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#service">Service</a>
+            <a class="nav-link" href="#content">Content</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#contact">Contact Me!</a>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <div class="box">
-      <section id="home">
+    <div id="home" class="box">
+      <section>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button
@@ -132,11 +150,11 @@
         </div>
       </section>
 
-      <div class="container service">
+      <div id="service" class="container service">
         <div class="row">
           <div class="col-sm-4">
             <img src="Icon1.webp" alt="">
-            <h2 class="fw-normal">Hotel</h2>
+            <h4 class="fw-normal">Hotel</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
               quam maxime animi veniam debitis facere, dolorem iusto nam commodi
@@ -150,7 +168,7 @@
 
           <div class="col-sm-4">
             <img src="Icon2.webp" alt="">
-            <h2 class="fw-normal">Flight</h2>
+            <h4 class="fw-normal">Flight</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
               quam maxime animi veniam debitis facere, dolorem iusto nam commodi
@@ -163,7 +181,7 @@
           </div>
           <div class="col-sm-4">
             <img src="Icon3.webp" alt="">
-            <h2 class="fw-normal">Tourism</h2>
+            <h4 class="fw-normal">Tourism</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
               quam maxime animi veniam debitis facere, dolorem iusto nam commodi
