@@ -1,18 +1,6 @@
 * {
     font-family: PT-Sans, sans-serif;
   }
-  
-  /* nav {
-    background-color: #DCF2F1;
-    color: #365486;
-    display: flex;
-    padding: 8px;
-    height: fit-content;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  } */
 
   #navImg {
     margin-left: 142px;
@@ -26,8 +14,20 @@
     color: #365486;
   }
   
+  .navbar-nav .nav-link.active {
+    margin-right: 12px;
+    color: #365486;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 12px;
+    color: #365486;
+  }
+  
   .nav-link:hover {
     text-decoration: underline;
+    background-color: #DCF2F1;
+    border-radius: 20px;
   }
   
   .link-wrapper {
@@ -52,13 +52,20 @@
   .service .row {
     border-radius: 5%;
     border-color: black;
+    margin-bottom: 48px;
   }
 
   .service .col-sm-4 {
     margin-top: 48px;
-    margin-bottom: 48px;
     text-align: center;
     border-inline-color: initial;
+  }
+
+  .service h1 {
+    text-align: center;
+    margin-top: 48px;
+    font-weight: 600;
+    color: #365486;
   }
 
   .service h4 {
@@ -74,4 +81,31 @@
 
   .service a {
     margin-top: 12px;
+  }
+
+  .card {
+    text-align: center;
+    font-size: 14px;
+    /* margin-top: 48px; */
+    margin-left: 24px;
+    margin-bottom: 72px;
+    justify-content: space-around;
+  }
+
+  #content {
+    background-color: #DCF2F1;
+    margin-top: 48px;
+    justify-content: center;
+  }
+
+  #content h1 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: 600;
+    color: #365486;
+  }
+
+  card-img, .card-img-top {
+    margin-top: 18px;
   }
