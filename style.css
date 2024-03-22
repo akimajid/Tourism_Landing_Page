@@ -68,10 +68,6 @@
     color: #365486;
   }
 
-  .service h4 {
-    margin-top: 12px;
-  }
-
   .service p {
     margin-top: 12px;
     font-size: 14px;
@@ -86,7 +82,6 @@
   .card {
     text-align: center;
     font-size: 14px;
-    /* margin-top: 48px; */
     margin-left: 24px;
     margin-bottom: 72px;
     justify-content: space-around;
@@ -108,4 +103,24 @@
 
   card-img, .card-img-top {
     margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  #gallery {
+    justify-content: center;
+  }
+
+  #gallery h1 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: 600;
+    color: #365486;
+  }
+
+  #gallery nav {
+    display: grid;
+    justify-content: center;
+    margin-top: -32px;
+    margin-bottom: 48px;
   }
